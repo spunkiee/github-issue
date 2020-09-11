@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Form CSS */
+.add-issue-container {
+  width: 100%;
+  height: 80vh;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-image-container {
+  width: 50%;
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-container {
+  width: 40%;
+  /* border: 1px solid green; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-image-container img {
+  width: 100%;
+  height: 80%;
+}
+.issue-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #343a40;
+}
+#add-issue-button:focus {
+  outline: none;
+}
+
+.dashboard-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.dashboard-container {
+  width: 100%;
+}
+.dashboard-table-header {
+  font-size: 20px;
+  color: #343a40;
+  font-weight: 700;
+}
+.data-desc {
+  font-size: 20px;
+  color: #343a40;
+  font-weight: 700;
+}
+.data-description {
+  font-size: 16px;
+  font-weight: normal;
+}
